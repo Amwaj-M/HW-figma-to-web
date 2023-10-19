@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ul-nav {
+    position: fixed;
+    width: 100vw;
+    top:0;
+    list-style-type: none;
+    overflow: hidden;
+    background: #263238;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  li {
+    float: left; 
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .active {
+    background-color: #77C3B1;
+  }
+  .login-nav{
+    width: 6em; 
+    height: 2em; 
+    background: #FAD441;
+    border-radius: 50px; 
+    border: 1px black solid"
+  }
+
+  .header{
+    width: 100vw;
+    height: 667px;
+    top:0;
+    background: linear-gradient(180deg, #263238 0%, #2C8BD2 48.09%, rgba(192, 220, 241, 0.00) 100%);
+    border: white solid;
+  }
+  .text-header{
+    width: 30%;
+    text-align: justify;
+    padding-top: 10%;
+    margin: 10%;
+    color: white;
+  }
+  h2{
+    font-weight:bolder;
+    font-size: xx-large;
+  }
+  .img-header{
+    position: absolute;
+    left: 45%;
+    bottom: 70%;
+    width: 10em;
+    height: 10em;
+   background-size: cover;
+  }
+  .new-courses{
+    width: 80vw;
+    top:0;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    
+  }
+  .h-new{
+    display: block;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight:bolder;
+    font-size: xx-large;
+    margin-top: 3%;
+
+  }
+  /* Card */
+  .card {
+    position: relative;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    width: 15%;
+    margin: 3%;
+  }
+  .img-course{
+    border-bottom: black solid;
+    width: 100% ;
+    top: 20%;
+    left: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #FAD441 0%, rgba(250, 212, 65, 0.00) 100%);
+
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    text-align: center;
+
+  }
+  .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+ .img-div-post{
+    width: 10%;
+    height: 10%; 
+   
+ }
+ .posts{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-betwen;
+  }
+  .new-posts{
+    width: 80vw;
+    top:0;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+.text-posts{
+    position: absolute;
+    text-align: justify;
+    justify-content: center;
+    justify-content: left;
+    width: 50%;
+    left: 20%;
+}
+.button-post1{
+    margin-left: 80%;
+    width:15%; 
+    height: 50%; 
+    background: #FAD441; 
+    border-radius: 99px
+}
+
+.fotter{
+    top:0;
+    background: #263238;
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    color: white;
+}
+.nav-fotter{
+    /* position: absolute; */
+    width: 100vw;
+    top:0;
+    list-style-type: none;
+
+}
+/* LOGIN */
+.box-login{
+
+    border:  rgba(255, 255, 255, 0.50) solid;
+    width:50%; 
+    margin-top: 5%;
+    height: 100%;  
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 9%;
+    background: rgba(255, 255, 255, 0.50); 
+    border-radius: 40px;
+    
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 90px;
+    backdrop-filter: blur(4px);
+}
+  
+  button {
+    background: #FAD441;
+    color: white;
+    /* padding: 14px 20px; */
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background: #FAD441;
+    border-radius: 50px
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  .container {
+    padding: 5%;
+    margin: 20%;
+    text-align: left;
+  }  
+  .img-box-login {
+    width: 10em; height: 10em; 
+    left: 45%;
+    top: 11%;
+    position: absolute;
+  }
+spin {
+margin: 3%;
+display: block;
+text-align: center;
+  }
+  /* Post */
+  .post-page{
+    /* display:block; */
+    margin-top: 10%;
+    width: 80%;
+    height: 130%;
+    position:absolute ;
+    left: 6%;
+    background: #D9D9D9; 
+    border-radius: 40px 
+  }
+  .img-div-post-page{
+    position: absolute;
+    left:35%;
+    top:0;
+  }
+  button{
+    color: #263238;
+    font-weight: bold;
+  }
+  .buton-page-login{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+  }
+
+  
